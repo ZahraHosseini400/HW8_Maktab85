@@ -1,0 +1,27 @@
+
+.card{
+    background-color: rgb(202, 202, 218);
+    padding: 20px 28%;
+}
+.cardText
+{
+    display: flex;
+    justify-content: space-between;
+}
+.main{
+    background-color:rgb(13, 13, 13);
+    display:flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+.box1{
+    
+    background-color: white;
+    width: 150px;
+    padding: 15px;
+    margin: 8px;
+}
+.afterMain{
+    padding: 20px 26%;
+}

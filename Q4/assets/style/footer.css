@@ -1,0 +1,30 @@
+.footer{
+    display:flex;
+    flex-direction: row;
+    color: white;
+}
+.mobile{
+    
+    padding: 30px 20px;
+    width: 50%;
+    background-color:rgb(80, 154, 250);
+}
+.about{
+    padding: 30px 20px;
+    width: 50%;
+    background-color: rgb(53, 52, 52);
+}
+.footerEnd{
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    justify-items: center;
+}
+.boxfooter{
+    width: 50%;
+}
+span{
+    color:rgb(80, 154, 250);
+}

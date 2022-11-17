@@ -1,0 +1,442 @@
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .header {
+    padding-top: 50px;
+    background-color: rgb(34, 33, 33);
+    width: 100%;
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: smaller;
+  }
+
+  .btn {
+    padding: 8px;
+    background-color: rgba(0, 255, 255, 0);
+    border-color: rgba(255, 255, 255, 0.397);
+    border-width: 1px;
+    color: white;
+    margin-top: 12px;
+    font-size: smaller;
+  }
+  .card {
+    background-color: rgb(202, 202, 218);
+    padding: 20px 8%;
+  }
+  .cardText {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main {
+    background-color: rgb(13, 13, 13);
+    display: flex;
+    /* justify-content: center; 
+    align-items: center; */
+    /* padding: 2%; */
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box1 {
+    background-color: white;
+    width: 95%;
+    padding: 15px;
+    margin-bottom: 8px;
+    /* height: fit-content; */
+  }
+
+  .afterMain {
+    padding: 20px 6%;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+  .mobile {
+    padding: 30px 20px;
+    width: 100%;
+    background-color: rgb(80, 154, 250);
+    font-size: smaller;
+  }
+  .about {
+    padding: 30px 20px;
+    width: 100%;
+    background-color: rgb(53, 52, 52);
+    font-size: smaller;
+  }
+  .footerEnd {
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    justify-items: center;
+    font-size: smaller;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .header {
+    padding-top: 50px;
+    background-color: rgb(34, 33, 33);
+    width: 100%;
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: small;
+  }
+  h3,
+  h1 {
+    font-size: medium;
+  }
+
+  .btn {
+    padding: 8px;
+    background-color: rgba(0, 255, 255, 0);
+    border-color: rgba(255, 255, 255, 0.397);
+    border-width: 1px;
+    color: white;
+    margin-top: 12px;
+    font-size: smaller;
+  }
+  .card {
+    background-color: rgb(202, 202, 218);
+    padding: 20px 8%;
+  }
+  .cardText {
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+  }
+
+  .main {
+    background-color: rgb(13, 13, 13);
+    display: flex;
+    /* justify-content: center; 
+        align-items: center; */
+    /* padding: 2%; */
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box1 {
+    background-color: white;
+    width: 95%;
+    padding: 15px;
+    margin-bottom: 8px;
+    /* height: fit-content; */
+    font-size: medium;
+  }
+
+  .afterMain {
+    padding: 20px 6%;
+    font-size: small;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: small;
+  }
+  .mobile {
+    padding: 30px 20px;
+    width: 100%;
+    background-color: rgb(80, 154, 250);
+    font-size: smaller;
+  }
+  .about {
+    padding: 30px 20px;
+    width: 100%;
+    background-color: rgb(53, 52, 52);
+    font-size: smaller;
+  }
+
+  .footerEnd {
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    justify-items: center;
+    font-size: smaller;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .header {
+    padding-top: 50px;
+    background-color: rgb(34, 33, 33);
+    width: 100%;
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: larger;
+  }
+  .pHeader {
+    font-size: larger;
+  }
+  .btn {
+    padding: 12px;
+    background-color: rgba(0, 255, 255, 0);
+    border-color: rgba(255, 255, 255, 0.397);
+    border-width: 1px;
+    color: white;
+    margin-top: 12px;
+    font-size: small;
+  }
+  .card {
+    background-color: rgb(202, 202, 218);
+    padding: 20px 8%;
+  }
+  .cardText {
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+  }
+
+  .main {
+    background-color: rgb(13, 13, 13);
+    display: flex;
+    /* justify-content: center; 
+        align-items: center; */
+    /* padding: 2%; */
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+  }
+
+  .box1 {
+    background-color: white;
+    width: 95%;
+    padding: 15px;
+    margin-bottom: 8px;
+    /* height: fit-content; */
+    font-size: larger;
+  }
+
+  .afterMain {
+    padding: 20px 6%;
+    font-size: medium;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: medium;
+  }
+  .mobile {
+    padding: 30px 20px;
+    width: 100%;
+    background-color: rgb(80, 154, 250);
+    font-size: small;
+  }
+  .about {
+    padding: 30px 20px;
+    width: 100%;
+    background-color: rgb(53, 52, 52);
+    font-size: small;
+  }
+
+  .footerEnd {
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    justify-items: center;
+    font-size: small;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .header {
+    padding-top: 50px;
+    background-color: rgb(34, 33, 33);
+    width: 100%;
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: larger;
+  }
+  .btn {
+    padding: 8px;
+    background-color: rgba(0, 255, 255, 0);
+    border-color: rgba(255, 255, 255, 0.397);
+    border-width: 1px;
+    color: white;
+  }
+  .card {
+    background-color: rgb(202, 202, 218);
+    padding: 20px 28%;
+    font-size: medium;
+    text-align: center;
+    
+  }
+  .cardText {
+    display: flex;
+    justify-content: space-between;
+ 
+  }
+  .main {
+    background-color: rgb(13, 13, 13);
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    font-size: large;
+   
+  }
+
+  .box1 {
+    background-color: white;
+    width: 300px;
+    padding: 15px;
+    margin: 8px;
+    font-size: large;
+  }
+  .afterMain {
+    padding: 20px 20%;
+    font-size: medium;
+  }
+  .footer {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: medium;
+  }
+  .mobile {
+    padding: 30px 20px;
+    width: 50%;
+    background-color: rgb(80, 154, 250);
+    font-size: medium;
+  }
+  .about {
+    padding: 30px 20px;
+    width: 50%;
+    background-color: rgb(53, 52, 52);
+    font-size: medium;
+  }
+  .footerEnd {
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    justify-items: center;
+    font-size: medium;
+  }
+  .boxfooter {
+    width: 50%;
+  }
+  span {
+    color: rgb(80, 154, 250);
+  }
+}
+
+
+@media screen  and (min-width:1441px){
+    .header {
+        padding-top: 50px;
+        background-color: rgb(34, 33, 33);
+        width: 100%;
+        display: flex;
+        height: 200px;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        font-size: larger;
+      }
+      .btn {
+        padding: 8px;
+        background-color: rgba(0, 255, 255, 0);
+        border-color: rgba(255, 255, 255, 0.397);
+        border-width: 1px;
+        color: white;
+      }
+      .card {
+        background-color: rgb(202, 202, 218);
+        padding: 20px 28%;
+        font-size: medium;
+        text-align: center;
+        
+      }
+      .cardText {
+        display: flex;
+        justify-content: space-between;
+     
+      }
+      .main {
+        background-color: rgb(13, 13, 13);
+        display: flex;
+        justify-content: center;
+        padding: 25px;
+       
+      }
+    
+      .box1 {
+        background-color: white;
+        width: 300px;
+        padding: 15px;
+        margin: 8px;
+        font-size: large;
+      }
+      .afterMain {
+        padding: 20px 20%;
+        font-size: medium;
+      }
+      .footer {
+        display: flex;
+        flex-direction: row;
+        color: white;
+        font-size: medium;
+      }
+      .mobile {
+        padding: 30px 20px;
+        width: 50%;
+        background-color: rgb(80, 154, 250);
+        font-size: medium;
+      }
+      .about {
+        padding: 30px 20px;
+        width: 50%;
+        background-color: rgb(53, 52, 52);
+        font-size: medium;
+      }
+      .footerEnd {
+        padding: 10px 0px;
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        color: white;
+        justify-items: center;
+        font-size: medium;
+      }
+      .boxfooter {
+        width: 50%;
+      }
+      span {
+        color: rgb(80, 154, 250);
+      }
+}
+
+
+
+
+

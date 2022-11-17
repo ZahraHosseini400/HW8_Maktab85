@@ -1,0 +1,21 @@
+@import url(reset.css);
+@import url(header.css);
+@import url(main.css);
+@import url(footer.css);
+@import url(responsive.css);
+
+.container{
+    /* background-color: rgb(230, 232, 230); */
+    /* color: white; */
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    font-size: 11px;
+    text-align:center;
+}
+
+body{
+    margin: 0px;
+    
+}
