@@ -1,0 +1,42 @@
+@import url(responsive.css);
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  background-color:white;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.dot {
+  margin-top: -90px;
+  margin-bottom: 30px;
+  font-size: x-large;
+  text-align: center;
+  align-self: center;
+  height: 55px;
+  width: 55px;
+  line-height: 55px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  border: 1px solid rgba(124, 124, 124, 0.158);
+  display: inline-block;
+}
+.rightImg{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: end;
+}
+.leftImg{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: start;
+}
